@@ -6,10 +6,10 @@ import { createStore } from 'redux';
 import { Header } from '../common';
 import LibraryList from '../LibraryList';
 
+
 const Home = () => {
 	return (
 		<View style={{ flex: 1 }}>
-			<Header headerText="Verne" />
 			<ScrollView style={{ flex: 1 }}>
 				<LibraryList />
 			</ScrollView>
